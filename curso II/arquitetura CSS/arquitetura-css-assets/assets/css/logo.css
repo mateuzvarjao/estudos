@@ -1,0 +1,22 @@
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 465px) {
+    .logo {
+        display: block;
+        height: 25px;
+        width: 50px;
+        justify-content: start;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        height: auto;
+        width: auto;
+        display: block;
+    }
+}
