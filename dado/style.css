@@ -1,0 +1,264 @@
+  body {
+    background-color: black;
+    width: 50vw;
+    height: 50vh;
+  }
+
+    .face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 100px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  
+  p + div {
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    margin-left: 100px;
+  }
+
+  .dado {
+    transform: perspective(7cm) 
+               rotateX(0deg) 
+               rotateY(0deg);
+    transition: 0.5s ease-in-out;
+  }
+  
+  .um {
+    background-color: white;
+    transform: translate3d(0, 0, 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo_um {
+    background-color: red;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+  } 
+
+  .dois {
+    background-color: white;
+    transform: rotateX(90deg) translate3d(0, 0, 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo_dois1 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 50px 10px;
+  } 
+
+  .circulo_dois2 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 40px 10px 0 10px;
+  } 
+  
+  .tres {
+    background-color: white;
+    transform: rotateY(-90deg) translate3d(0, 0, 50px);
+  }
+
+  .circulo_tres {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px 0 10px;
+  } 
+  .circulo_tres1 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 10px 10px 0 10px;
+  } 
+  .circulo_tres2 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 40px;
+  } 
+  .circulo_tres3 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 0 70px;
+  } 
+  
+  .quatro {
+    background-color: white;
+    transform: translate3d(0, 0, -50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo_quatro1 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 50px 60px 0 0;
+    position: absolute;
+  }
+
+  .circulo_quatro2 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 5px 20px 70px 0 ;
+  }
+
+  .circulo_quatro3 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 70px 16px;
+  }
+
+  .circulo_quatro4 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 50px 0 0 50px;
+    position: absolute;
+  }
+
+  .cinco {
+    background-color: white;
+    transform: rotateX(90deg) rotateY(180deg) translate3d(0, 0, 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo_cinco1 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  .circulo_cinco2 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 60px 60px 0 0;
+    position: absolute;
+  }
+
+  .circulo_cinco3 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 60px 60px 0;
+    position: absolute;
+  }
+
+  .circulo_cinco4 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 60px 0 0 60px;
+    position: absolute;
+  }
+
+  .circulo_cinco5 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 60px 60px;
+    position: absolute;
+  }
+
+  .seis {
+    background-color: white;
+    transform: rotateY(90deg) translate3d(0, 0, 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circulo_seis1 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 60px 60px 0 0;
+    position: absolute;
+  }
+  .circulo_seis2 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 60px 0 0 60px;
+    position: absolute;
+  }
+  .circulo_seis3 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 60px 0 0;
+    position: absolute;
+  }
+  .circulo_seis4 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 0 60px;
+    position: absolute;
+  }
+  .circulo_seis5 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 60px 60px 0;
+    position: absolute;
+  }
+  .circulo_seis6 {
+    background-color: black;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+    margin: 0 0 60px 60px;
+    position: absolute;
+  }
+
+  .botao {
+    background-color: aquamarine;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-style: oblique;
+    font-size: 12px;
+    font-weight: bold;
+  }
